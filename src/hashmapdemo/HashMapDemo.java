@@ -18,7 +18,7 @@ public class HashMapDemo {              //main class
             map.put(110, "Anthony Gonzalvez tiwari");           //adding key, value to map
 
             for(Integer item:map.keySet()){                     //looping over hasmap
-                System.out.println(""+ map.get(item));          //feding key to print its value
+                System.out.println("Employee Name: "+ map.get(item));          //feding key to print its value
             }
     }
     
